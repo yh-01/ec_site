@@ -1,0 +1,1 @@
+*,*::before,*::after{box-sizing:border-box}html{scroll-behavior:smooth}body,h1,h2,h3,p,figure,ol,ul{margin:0}body{min-height:100vh}img{max-width:100%;display:block}a{color:inherit;text-decoration:none}button,input,textarea,select{font:inherit}ul,ol{padding:0}li{list-style:none}details summary{cursor:pointer}

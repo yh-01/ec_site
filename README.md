@@ -1,6 +1,15 @@
-# MIRAI COMMERCE Codex Package
+# MIRAI COMMERCE Static Mock
 
-- `mirai_commerce_codex_spec.md`: 実装仕様書
-- `reference-01.jpeg` ～ `reference-08.jpeg`: 参考画像
+A framework-free static HTML/CSS mock based on `mirai_commerce_codex_spec.md` and the eight reference images in `references/`.
 
-Codexには、フォルダ全体を渡し、仕様書末尾の「Codexへの最初の指示文」を使用してください。
+## Files
+
+- `index.html`: single-page mock
+- `css/`: reset, tokens, base, layout, components, responsive styles
+- `js/main.js`: minimal progressive-enhancement hook
+- `references/reference-01.jpeg` ... `references/reference-08.jpeg`: reference images moved into the required folder
+- `IMPLEMENTATION_NOTES.md`: implementation notes
+
+## Preview
+
+Open `index.html` directly in a browser. No build step is required.
